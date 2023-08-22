@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>Home-Page-2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<style>
+
+body{
+	background-color : black;
+	color : white;
+	font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Comic Neue', cursive;
+    font-size : larger;
+    text-align : center;
+}
+.navbar {
+  margin : 10px;
+}
+
+.internal-span{
+  color : gray;
+}
+
+.css-span{
+  color : yellow;
+}
+
+.navbar {
+  border-radius : 5px;
+  background-color : black;
+  color : white;
+  margin-bottom : 10px;
+  padding:2px;
+}
+
+.video-tag-border{
+  border-radius : 10px;
+}
+
+.video{
+  margin-right : 5px;
+  border : 0.3px solid black;
+}
+
+.video-source{
+  background-color : yellow;
+  color : black;
+}
+
+p{
+  font-size : larger;
+}
+</style>
+</head>
+<body>
+	<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid"style="">
+    <a class="navbar-brand" title="Inline Styling Page" href="/index.html">Page 1 - Inline</a>
+    <a class="navbar-brand" title="Internal Styling Page" href="/inline.html">Page 2 - Internal</a>
+    <a class="navbar-brand" title="External Styling Page" href="/external.html">Page 3 - External</a>
+    </div>
+    </nav>
+	<h1>This Page is styled using <span class="internal-span">Internal</span> <span class="css-span">CSS.</span></h1>
+	<a class="video-source" href="https://www.pexels.com/search/videos/sample/">Pexels</a>
+	<p>The best free stock photos, royalty free images & videos shared by creators.</p>
+	<br>
+	<p title="Description of vedio">Specimen Vedios</p>
+    <video class="video-tag-border" width="420" height="340" controls autoplay> <!-- vedio Tag -->
+    <source src="vedio.mp4" type="video/mp4">
+    </video>
+    <video class="video-tag-border" width="420" height="340" controls autoplay> <!-- vedio Tag -->
+    <source src="video-2.mp4" type="video/mp4">
+    </video>	
+</main>
+</body>
+</html>
